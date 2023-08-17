@@ -10,9 +10,9 @@ public class Trabajo_2 {
         float suma;
         float resta;
         float multiplicacion;
+        float division;
+        //Opcion Elegida 
         int op;
-        //Resultado
-        float resultado;
         //Panel de Recoleccion de los Datos
         n1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el primer numero"));
         n2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo numero")); 
@@ -28,10 +28,15 @@ public class Trabajo_2 {
             resta = n1 - n2;
             JOptionPane.showMessageDialog(null, "La Resta es: "+resta);
     }
-                //Operacion Multiplicacion
+        //Operacion Multiplicacion
         if (op==3){
             multiplicacion = n1 * n2;
             JOptionPane.showMessageDialog(null, "La Multiplicacion es: "+multiplicacion);  
+        }
+        //Operacion Division
+        if (op==4){
+            division = n1 / n2;
+            JOptionPane.showMessageDialog(null, "La Division es: "+division);
         }
     }
 }
