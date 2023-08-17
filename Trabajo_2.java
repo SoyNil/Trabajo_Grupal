@@ -27,7 +27,7 @@ public class Trabajo_2 {
         if (op==2){
             resta = n1 - n2;
             JOptionPane.showMessageDialog(null, "La Resta es: "+resta);
-    }
+        }
         //Operacion Multiplicacion
         if (op==3){
             multiplicacion = n1 * n2;
