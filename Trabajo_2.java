@@ -8,6 +8,7 @@ public class Trabajo_2 {
         float n1;
         float n2;
         float suma;
+        float resta;
         float multiplicacion;
         int op;
         //Resultado
@@ -22,10 +23,15 @@ public class Trabajo_2 {
             suma = n1 + n2;
             JOptionPane.showMessageDialog(null,"La Suma es: "+suma);
         }
-        //Operacion Multiplicacion
-        if(op==3){
+        //Operacion Resta
+        if (op==2){
+            resta = n1 - n2;
+            JOptionPane.showMessageDialog(null, "La Resta es: "+resta);
+    }
+                //Operacion Multiplicacion
+        if (op==3){
             multiplicacion = n1 * n2;
-            JOptionPane.showMessageDialog(null, "La Multiplicacion es: "+multiplicacion);    
-    }    
-}
+            JOptionPane.showMessageDialog(null, "La Multiplicacion es: "+multiplicacion);  
+        }
+    }
 }
